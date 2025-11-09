@@ -1,4 +1,4 @@
-package edu.ucne.ramon_lopez_ap2_p2.tareas.local.di
+package edu.ucne.ramon_lopez_ap2_p2.di
 
 import dagger.Binds
 import dagger.Module
