@@ -2,7 +2,6 @@ package edu.ucne.ramon_lopez_ap2_p2.data.remote.repository
 
 import edu.ucne.ramon_lopez_ap2_p2.data.remote.GastosRemoteDataSource
 import edu.ucne.ramon_lopez_ap2_p2.data.remote.Resource
-import edu.ucne.ramon_lopez_ap2_p2.data.remote.dto.GastoResponse
 import edu.ucne.ramon_lopez_ap2_p2.data.remote.mapper.toDomain
 import edu.ucne.ramon_lopez_ap2_p2.data.remote.mapper.toRequest
 import edu.ucne.ramon_lopez_ap2_p2.domain.model.Gasto
