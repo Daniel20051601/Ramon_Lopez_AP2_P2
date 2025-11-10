@@ -1,4 +1,4 @@
-package edu.ucne.ramon_lopez_ap2_p2.tareas.local.presentation
+package edu.ucne.ramon_lopez_ap2_p2.presentation
 
 interface GastoEvent {
     data class onSuplidorChanged(val suplidor: String): GastoEvent
@@ -6,9 +6,9 @@ interface GastoEvent {
     data class onNcfChanged(val ncf: String): GastoEvent
     data class onItbisChanged(val itbis: Double ): GastoEvent
     data class onMontoChanged(val monto: Double): GastoEvent
-    object onSave: GastoEvent
-    object showSheet: GastoEvent
-    object hideSheet: GastoEvent
-    object UserMessageShown: GastoEvent
-    object gastoSelected: GastoEvent
+    data object onSave: GastoEvent
+    data object showSheet: GastoEvent
+    data object hideSheet: GastoEvent
+    data object UserMessageShown: GastoEvent
+    data class LoadGasto(val id: Int): GastoEvent
 }
